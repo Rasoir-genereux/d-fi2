@@ -106,7 +106,7 @@ a[class="click3"]:active{
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
-@media all and (max-width: 877px){
+@media all and (max-width: 935px){
   .content{
     flex-direction: column;
     -webkit-flex-direction: column;
