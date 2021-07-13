@@ -1,0 +1,128 @@
+head, footer{
+  margin: 0;
+}
+
+h1{
+  margin-top: 25px;
+  font-family:'Big Shoulders Display', Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+body{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.content{
+  margin: 0 auto;
+  border-radius: 7px;
+  overflow: hidden;
+  position: absolute;
+  top:25%;
+  color: white;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 450px;
+  width:75%;
+  font-family:'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+.case{
+  text-align: left;
+}
+
+.case1{  background: hsl(31, 77%, 52%);}
+
+.case2{  background:hsl(184, 100%, 22%);}
+
+.case3{  background: hsl(179, 100%, 13%);}
+
+
+.inside_case{
+  margin-top: 40px;
+  padding-left:45px;
+  padding-right:45px;
+}
+
+
+.click1, .click2, .click3{
+  width:115px;
+  position: relative;
+  bottom: -70px;
+  background-color: #fff;
+  padding: 10px  20px ;
+  border-radius: 50px;
+  text-align: center;
+  border: 2px solid white;
+  }
+
+
+
+.click1, .click2, .click3{   text-decoration: none;}
+
+  .click1{
+     color: hsl(31, 77%, 52%);   }
+
+  .click2{
+    color:  hsl(184, 100%, 22%);  }
+
+  .click3{
+    color:  hsl(179, 100%, 13%);  }
+
+a[class="click1"]:active{
+  color: #fff;
+  background-color: hsl(31, 77%, 52%);
+  border-color: #fff;
+}
+
+a[class="click2"]:active{
+  color: #fff;
+  background-color:  hsl(184, 100%, 22%);
+  border-color: #fff;
+}
+
+a[class="click3"]:active{
+  color: #fff;
+  background-color: hsl(179, 100%, 13%);
+  border-color: #fff;
+}
+
+
+.attribution {
+    margin: 15px 0px 0px 0px;
+    position: absolute;
+    bottom: 0px;
+    font-size: 11px;
+    text-align: center;
+ }
+
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media all and (max-width: 877px){
+  .content{
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    height: auto;
+    width: 350px;
+    align-items: center;
+  }
+
+  .case{
+    height: auto;
+  }
+
+  .inside_case{
+    height: 360px;/*Lorsque qu'il y plusieurs div l'un dans l'autre, il faut modifier les tailles de la dernière div*/
+
+  }
+
+}
