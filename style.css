@@ -13,7 +13,7 @@ body{
   display: -ms-flex;
   display: flex;
   justify-content: center;
-  align-content: center;
+  /*align-content: center;*/
   }
 
 .content{
