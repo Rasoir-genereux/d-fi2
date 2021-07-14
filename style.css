@@ -9,11 +9,11 @@ h1{
 }
 
 body{
-  display: -webkit-flex;
+  /*display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   justify-content: center;
-  /*align-content: center;*/
+  align-content: center;*/
   }
 
 .content{
