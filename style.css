@@ -14,8 +14,7 @@ body{
   display: flex;
   justify-content: center;
   align-content: center;
-  position: relative;
-}
+  }
 
 .content{
   margin: 0 auto;
@@ -97,7 +96,7 @@ a[class="click3"]:active{
 
 .attribution {
     margin: 15px 0px 0px 0px;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     font-size: 11px;
     text-align: center;
